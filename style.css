@@ -1,0 +1,196 @@
+.redrose{
+    font-family: 'Red Rose', cursive;
+}
+
+.rowdies{
+    font-family: 'Rowdies', cursive;
+}
+
+.h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 90px;
+    line-height: 125%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.h2{
+    font-family: 'Rowdies', cursive;
+    font-size: 70px;
+    line-height: 125%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.h2_mobile{
+    font-family: 'Rowdies', cursive;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.h3{
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.h4{
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+
+.h5{
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+
+.subheader1{
+    font-family: 'Red Rose', cursive;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.subheader1_mobile{
+    font-family: 'Red Rose', cursive;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.body1{
+    font-family: 'Red Rose', cursive;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.body1_mobile{
+    font-family: 'Red Rose', cursive;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.button{
+    font-family: 'Red Rose', cursive;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+.button_mobile{
+    font-family: 'Red Rose', cursive;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: normal;
+    font-weight: 600;
+}
+
+.enfoncer, .enfoncer2, .enfoncer3, .enfoncer4, .enfoncer5{
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    float: left;
+    border-bottom: 5px solid black;
+}
+
+.enfoncer:hover{
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom: 1px solid;
+}
+
+.enfoncer2:hover{
+    background-color:black;
+    color: rgb(254 240 138);
+}
+
+.enfoncer3:hover{
+    background-color:#334c8c;
+    color: white;
+}
+
+.enfoncer4:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+    
+}
+
+.enfoncer5:hover{
+    background-color:black;
+    color: white;
+}
+
+.a{
+    display: inline;
+    position: relative;
+    text-decoration: none;
+}
+
+.hover_menu:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 0%;
+    left: 0px;
+    height: 4px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: black;
+}
+
+.hover_menu:hover:after{
+    width: 100%;
+}
+
+.shadow-card{
+    border: 2px solid black;
+    transition: all 0.1s; 
+}
+
+.shadow-card1{
+    border: 2px solid black;
+    transition: all 0.1s; 
+}
+
+.shadow-card:hover{
+    transform: translate(-5px, -5px);
+    box-shadow: 3px 3px 1px black;
+}
+
+.boxpopular{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: -65px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* MOBILE */
+
+.menu_mobile{
+    
+    font-size: 14px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+

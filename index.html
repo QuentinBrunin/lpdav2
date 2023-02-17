@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>La Patrouille d'Arthur</title>
+</head>
+<body class="bg-[#925735] lg:max-w-8xl lg:mx-auto w-full">
+
+    <!-- MENU MOBILE BAS DE PAGE -->
+    <div class="lg:hidden fixed bottom-0 w-full bg-black h-14 flex items-center z-10">
+        <ul class="flex w-96 mx-auto justify-around text-white">
+            <li class="subheader1 font-bold text-sm"> <a class="a hover_menu" href="#">Home</a> </li>
+            <li class="subheader1 font-bold text-sm"> <a class="a hover_menu" href="#">About</a> </li>
+            <li class="subheader1 font-bold text-sm"> <a class="a hover_menu" href="#">Services</a> </li>
+            <li class="subheader1 font-bold text-sm"> <a class="a hover_menu" href="#">Shop</a> </li>
+            <li class="subheader1 font-bold text-sm"> <a class="a hover_menu" href="#">Blog</a> </li>
+        </ul>
+    </div>
+    
+    <header class="flex items-center justify-center  h-32 lg:mb-32 mb-24 lg:max-w-7xl mx-auto">
+        <div class="flex items-center justify-around">
+            <div class="flex mx-auto items-center justify-around -ml-4 lg:ml-0">
+                <img class="w-20 lg:w-32 lg:mt-10" src="img/logo.jpg" alt="">
+            </div>
+            <h1 class="h4 ml-4 lg:hidden">La Patrouille d'Arthur</h1>
+        </div>
+      
+        <nav class="hidden lg:visible lg:flex mx-auto align-center">
+            <ul class="flex mx-40">
+                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Home</a> </li>
+                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">About</a> </li>
+                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Services</a> </li>
+                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Shop</a> </li>
+                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Blog</a> </li>
+            </ul> 
+        </nav>
+        <a class="hidden lg:visible enfoncer lg:inline-block bg-yellow-200 py-4 px-6 font-bold button rounded-lg border-black  shadow-black shadow" href="#">Nous Contacter</a> 
+    </header>
+   
+    <main class="w-full flex lg:mb-20 mb-40 px-10 lg:px-0">
+        <div class="lg:max-w-5xl mx-auto flex flex-col">
+            <h1 class="h2_mobile  lg:h2 mb-10">Un anniversaire inoubliable grâce à nos créations.</h1>
+            <p class="subheader1_mobile lg:subheader1 mb-16">Vous avez envie d'un thème en particulier ? On l'adapte sur nos produits (Kinder, Capri-Sun, M&M's, Haribo etc...) avec Canva Pro ! </p>
+            <a class="enfoncer inline-block bg-yellow-200 w-[280px] lg:w-[350px] lg:text-xl lg:py-4 py-3 text-center font-bold button_mobile  rounded-lg lg:mx-0  mx-auto" href="#">Jetez un oeil à la galerie</a> 
+        </div>
+        <div class="hidden lg:visible lg:block">
+            <img class="-mt-28 -ml-28 " src="img/logo.jpg" alt="">
+        </div>
+    </main>
+
+    <!-- SEPARATION VISUELLE -->
+    <div class="relative flex flex-col lg:flex-row justify-around items-center w-full bg-black lg:h-28 h-[900px]">
+        <div class="lg:ml-20 flex items-center">
+            <i class="fa-solid fa-calendar fa-xl text-[#EEA25E] mr-2 mb-1"></i>
+            <p class="text-white subheader1">Date</p>
+        </div>
+    
+        <div class="flex items-center">
+            <i class="fa-solid fa-gift fa-xl text-[#EEA25E] mr-2 mb-1"></i>
+            <p class="text-white subheader1">Box</p>
+        </div>
+
+        <div class="flex items-center">
+            <i class="fa-solid fa-cake-candles fa-xl  text-[#EEA25E] mr-2 mb-1"></i>
+            <p class="text-white subheader1">Thème</p>
+        </div>
+
+        <div class="lg:mr-20 flex items-center">
+            <i class="fa-solid fa-box fa-xl text-[#EEA25E] mr-2 mb-1"></i>
+            <p class="text-white subheader1">Expédition</p>
+        </div>
+    </div>
+
+    <!-- NOS SERVICES -->
+    <section class="w-full lg:h-[1200px] bg-[#f4e8dd]">
+        <div class="flex flex-col items-center justify-center mb-20">
+            <h3 class="h2_mobile lg:h2 mb-8 mt-32">Nos Services</h3>
+            <p class="body1_mobile lg:body1 lg:max-w-2xl px-6 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="flex justify-center flex-col lg:flex-row w-96 lg:w-full mx-auto">
+            <div class="flex flex-col justify-center items-center bg-[#ae6840] w-96 p-10 mr-16 mb-20 lg:mb-0 rounded-xl shadow-card1">
+                <img class="rounded-full w-52 mb-8" src="img/logo.jpg" alt="">
+                <h4 class="h4 mb-6">Un service</h4>
+                <p class="text-center body1 mb-6">Ceci est un texte qui sert juste à combler blabla no jutsu</p>
+                <a class="enfoncer2 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" href="#">Plus d'infos...</a> 
+            </div>
+    
+            <div class="flex flex-col justify-center items-center bg-[#ae6840] w-96 p-10 mr-16 mb-20 lg:mb-0 rounded-xl shadow-card1">
+                <img class="rounded-full w-52 mb-8" src="img/logo.jpg" alt="">
+                <h4 class="h4 mb-6">Un service</h4>
+                <p class="text-center body1 mb-6">Ceci est un texte qui sert juste à combler blabla no jutsu</p>
+                <a class="enfoncer2 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" href="#">Plus d'infos...</a> 
+            </div>
+    
+            <div class="flex flex-col justify-center items-center bg-[#ae6840] w-96 p-10 mb-40 lg:mb-0 rounded-xl shadow-card1">
+                <img class="rounded-full w-52 mb-8" src="img/logo.jpg" alt="">
+                <h4 class="h4 mb-6">Un service</h4>
+                <p class="text-center body1 mb-6">Ceci est un texte qui sert juste à combler blabla no jutsu</p>
+                <a class="enfoncer2 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" href="#">Plus d'infos...</a> 
+            </div>
+        </div>
+    </section>
+
+    <!-- NOS AVIS -->
+    <section class="w-full mt-20 lg:mt-24 lg:h-[900px] h-[1100px]">
+        <div class="flex flex-col items-center justify-center mb-60 lg:mb-20">
+            <h3 class="h2_mobile lg:h2 mb-8 mt-20">Nos Témoignages</h3>
+            <p class="body1_mobile lg:body1 lg:max-w-2xl px-6 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="flex justify-around flex-col lg:flex-row px-10 lg:px-0 lg:max-w-7xl mx-auto h-[400px]">
+            <div class="flex justify-around flex-col lg:flex-row items-center bg-[#FFE0DB] w-full p-10 rounded-xl shadow-card">
+                    <img class="rounded-full w-52 mb-10 lg:mb-0 " src="img/logo.jpg" alt="">
+                    <div class="flex flex-col ">
+                        <p class="body1_mobile lg:body1 mb-2 font-bold">Brunin Quentin</p>
+                        <p class="body1_mobile lg:body1 mb-2 max-w-xl">Ceci est un texte qui sert juste à combler blabla no jutsu Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates praesentium incidunt recusandae reiciendis. Quam vero velit magnam rerum, quis, et, tempora laboriosam possimus natus eaque voluptatibus nostrum sapiente iure. Velit.</p>
+                        <p class="font-bold button rounded-lg" href="#">4.5/5 ✨</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOS BOXS -->
+    <section class="w-full  lg:h-[1000px] h-[2200px] bg-[#f4e8dd]">
+        <div class="flex flex-col items-center justify-center mb-20">
+            <h3 class="h2_mobile lg:h2 mb-8 mt-32">Nos Boîtes à Thème</h3>
+            <p class="body1_mobile lg:body1 lg:max-w-2xl px-6 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        
+        <div class="flex justify-center flex-col lg:flex-row w-96 lg:w-full mx-auto">
+            <div class="flex flex-col justify-center items-center hover:bg-[#b9f58d] bg-white w-96 py-20 mr-4 mb-32 lg:mb-0 rounded-xl shadow-card1">
+                <h4 class="h4 mb-10">La première boîte</h4>
+                <ul class="mb-10">
+                    <li class="body1"> x4 Machins </li>
+                    <li class="body1"> x4 bidules </li>
+                    <li class="body1"> x4 trucs </li>
+                    <li class="body1"> x4 choses </li>
+                    <li class="body1"> x4 glouglou </li>
+                </ul>
+                <a class="enfoncer2 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" href="#">40€ TTC</a> 
+            </div>
+    
+            <div class="relative flex flex-col justify-center items-center bg-[#7fb4ff] py-20 lg:py-0 w-96 mr-4 mb-20 lg:mb-0 rounded-xl shadow-card1">
+                <div class="boxpopular body1">
+                    <p class="w-96 text-center py-2">La plus populaire</p>
+                </div>
+                <h4 class="h4 mb-10">La deuxième boîte</h4>
+                <ul class="mb-10">
+                    <li class="body1"> x8 Machins </li>
+                    <li class="body1"> x8 bidules </li>
+                    <li class="body1"> x8 trucs </li>
+                    <li class="body1"> x8 choses </li>
+                    <li class="body1"> x8 glouglou </li>
+                </ul>
+                <a class="enfoncer2 inline-block bg-yellow-200 py-3 bold px-6 font-bold button rounded-lg border-black  shadow-black" href="#">60€ TTC</a> 
+            </div>
+
+            <div class="flex flex-col justify-center items-center hover:bg-[#f17c7c] bg-white py-20 lg:py-0 w-96 mb-20 lg:mb-0 rounded-xl shadow-card1">
+                <h4 class="h4 mb-10">La troisième boîte</h4>
+                <ul class="mb-10">
+                    <li class="body1"> x12 Machins </li>
+                    <li class="body1"> x12 bidules </li>
+                    <li class="body1"> x12 trucs </li>
+                    <li class="body1"> x12 choses </li>
+                    <li class="body1"> x12 glouglou </li>
+                </ul>
+                <a class="enfoncer2 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" href="#">80€ TTC</a> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-white w-full lg:h-[1000px] h-[1950px] relative">
+        <div class="flex flex-col items-center justify-center mb-20 pt-20">
+            <h2 class="h2_mobile lg:h2 mb-6 text-center">Comment passer commande ?</h2>
+            <p class="body1">Et ben via nos réseaux sociaux !!</p>
+        </div>
+        <div class="flex justify-center items-center flex-col lg:flex-row w-96 lg:w-full mx-auto">
+            <div class="flex flex-col justify-center items-center  lg:w-[500px] py-20  lg:mr-16 rounded-xl">
+                <a href="https://www.facebook.com/profile.php?id=100088176911750" target="_blank">
+                    <img class="rounded-full w-32 mb-8" src="img/facebook.png" alt="">
+                </a>
+                <h4 class="h5 mb-6">La Patrouille d'Arthur</h4>
+                <p class="text-center body1 mb-6">Envoyez-nous un message sur notre page ou sur messenger.</p>
+                <a class="enfoncer3 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" target="_blank" href="https://www.facebook.com/profile.php?id=100088176911750">Facebook</a> 
+            </div>
+
+            <div class="flex flex-col justify-center items-center lg:w-[500px] py-20  lg:mr-16 rounded-xl">
+                <a href="">
+                    <img class="rounded-full w-32 mb-8" src="img/instagram.png" alt="">
+                </a>
+                <h4 class="h5 mb-6">LpdA</h4>
+                <p class="text-center body1 mb-6">Vous pouvez nous joindre également sur Instagram.</p>
+                <a class="enfoncer4 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" target="_blank" href="#">Instagram</a> 
+            </div>
+
+            <div class="flex flex-col justify-center items-center  lg:w-[500px] py-20  lg:mr-16 rounded-xl">
+                <a href="">
+                    <img class="rounded-full w-32 mb-8" src="img/tic-tac.png" alt="">
+                </a>
+                <h4 class="h5 mb-6">LpdA</h4>
+                <p class="text-center body1 mb-6">On filme les diverses étapes de votre commande avec votre accord.</p>
+                <a class="enfoncer5 inline-block bg-yellow-200 py-3 px-6 font-bold button rounded-lg border-black  shadow-black" target="_blank" href="#">Tiktok</a> 
+            </div>
+        </div>
+
+        <footer class="absolute bg-black w-full bottom-0 h-10 flex items-center justify-center">
+            <ul class="flex text-white font-bold">
+                <li><a class="hover:text-blue-500 text-[10px]" href="">Politique de confidentialité - </a></li>
+                <li><a class="hover:text-blue-500 text-[10px]" href=""> &nbsp Conditions de vente - </a></li>
+                <li><a class="hover:text-blue-500 text-[10px]" href=""> &nbsp Développé par Deviniteam</a></li>
+            </ul>
+        </footer>
+    </section>
+
+    <div class="h-14 lg:hidden">
+
+    </div>
+
+</body>
+</html>
