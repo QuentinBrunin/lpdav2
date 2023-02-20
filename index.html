@@ -11,7 +11,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>La Patrouille d'Arthur</title>
 </head>
-<body class="bg-[#925735] lg:max-w-8xl lg:mx-auto w-full">
+<body class="bg-image bg-[#925735] lg:max-w-8xl lg:mx-auto w-full">
+   
 
     <!-- MENU MOBILE BAS DE PAGE -->
     <div class="lg:hidden fixed bottom-0 w-full bg-black h-14 flex items-center z-10">
@@ -23,37 +24,44 @@
             <li class="subheader1 font-bold text-sm"> <a class="a hover_menu" href="#">Blog</a> </li>
         </ul>
     </div>
+
     
-    <header class="flex items-center justify-center  h-32 lg:mb-32 mb-24 lg:max-w-7xl mx-auto">
-        <div class="flex items-center justify-around">
-            <div class="flex mx-auto items-center justify-around -ml-4 lg:ml-0">
-                <img class="w-20 lg:w-32 lg:mt-10" src="img/logo.jpg" alt="">
+
+    <header class="flex items-center justify-center h-32 lg:mb-32 mb-24 lg:max-w-7xl mx-auto lg:z-50">
+        <div class="flex items-center justify-around lg:z-50">
+            <div class="flex mx-auto items-center justify-around -ml-4 lg:ml-0 lg:z-50">
+                <img class="w-20 lg:w-32 lg:mt-10 lg:z-50" src="img/logo.jpg" alt="">
             </div>
-            <h1 class="h4 ml-4 lg:hidden">La Patrouille d'Arthur</h1>
+            <h1 class="h4 ml-4 lg:hidden lg:z-50">La Patrouille d'Arthur</h1>
         </div>
       
-        <nav class="hidden lg:visible lg:flex mx-auto align-center">
-            <ul class="flex mx-40">
-                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Home</a> </li>
-                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">About</a> </li>
-                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Services</a> </li>
-                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Shop</a> </li>
-                <li class="mx-5 subheader1 font-bold"> <a class="a hover_menu" href="#">Blog</a> </li>
+        <nav class="hidden lg:visible lg:flex mx-auto align-center lg:z-50">
+            <ul class="flex mx-40 lg:z-50">
+                <li class="mx-5 subheader1 font-bold text-white"> <a class="a hover_menu" href="#">Home</a> </li>
+                <li class="mx-5 subheader1 font-bold text-white"> <a class="a hover_menu" href="#">About</a> </li>
+                <li class="mx-5 subheader1 font-bold text-white"> <a class="a hover_menu" href="#">Services</a> </li>
+                <li class="mx-5 subheader1 font-bold text-white"> <a class="a hover_menu" href="#">Shop</a> </li>
+                <li class="mx-5 subheader1 font-bold text-white"> <a class="a hover_menu" href="#">Blog</a> </li>
             </ul> 
         </nav>
-        <a class="hidden lg:visible enfoncer lg:inline-block bg-yellow-200 py-4 px-6 font-bold button rounded-lg border-black  shadow-black shadow" href="#">Nous Contacter</a> 
+        <a class="hidden lg:visible enfoncer lg:inline-block bg-yellow-200 py-4 px-6 font-bold button rounded-lg border-black  shadow-black shadow lg:z-50" href="#">Nous Contacter</a> 
     </header>
    
-    <main class="w-full flex lg:mb-20 mb-40 px-10 lg:px-0">
-        <div class="lg:max-w-5xl mx-auto flex flex-col">
-            <h1 class="h2_mobile  lg:h2 mb-10">Un anniversaire inoubliable grâce à nos créations.</h1>
-            <p class="subheader1_mobile lg:subheader1 mb-16">Vous avez envie d'un thème en particulier ? On l'adapte sur nos produits (Kinder, Capri-Sun, M&M's, Haribo etc...) avec Canva Pro ! </p>
-            <a class="enfoncer inline-block bg-yellow-200 w-[280px] lg:w-[350px] lg:text-xl lg:py-4 py-3 text-center font-bold button_mobile  rounded-lg lg:mx-0  mx-auto" href="#">Jetez un oeil à la galerie</a> 
+
+    <main class="w-full flex lg:mb-20 mb-40 px-10 lg:px-0 lg:h-[490px]">
+        <div class="lg:max-w-5xl ml-40 flex flex-col lg:z-50">
+            <h1 class="h2_mobile lg:text-7xl mb-10 lg:max-w-5xl lg:z-50 text-white">Un anniversaire inoubliable grâce à nos créations.</h1>
+            <p class="subheader1_mobile lg:text-2xl mb-16 lg:z-50 text-white">Vous avez envie d'un thème en particulier ? On l'adapte sur nos produits (Kinder, Capri-Sun, M&M's, Haribo etc...) avec Canva Pro ! </p>
+            <a class="enfoncer inline-block bg-yellow-200 w-[280px] lg:w-[350px] lg:py-4 py-3 text-center font-bold lg:text-2xl lg:font-bold redrose button_mobile rounded-lg lg:mx-0  mx-auto" href="#">Jetez un oeil à la galerie</a> 
         </div>
         <div class="hidden lg:visible lg:block">
-            <img class="-mt-28 -ml-28 " src="img/logo.jpg" alt="">
+            <!-- <img class="lg:max-w-2xl lg:absolute z-0 -top-52 right-0" src="img/bear_work.png" alt=""> -->
         </div>
+       
     </main>
+
+       
+
 
     <!-- SEPARATION VISUELLE -->
     <div class="relative flex flex-col lg:flex-row justify-around items-center w-full bg-black lg:h-28 h-[900px]">
